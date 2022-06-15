@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --nocofirm chezmoi
+sudo pacman -S --noconfirm --needed chezmoi
 
 chezmoi init --apply --verbose https://github.com/mtsap/dotfiles --branch main
 
