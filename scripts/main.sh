@@ -1,9 +1,10 @@
 #!/bin/bash
 
-cmod +x ./*
+chmod +x ./*
 
 sudo pacman -Suy --noconfirm --needed
 ./install-packages.sh
 ./yay.sh
 ./chezmoi.sh
 ./xorg.sh
+./vim.sh
