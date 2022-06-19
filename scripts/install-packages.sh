@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-sudo pacman -S --noconfirm --needed git lsd tree base-devel\ 
-  source-highlight fzf zsh-syntax-highlighting
+sudo pacman -S --noconfirm --needed git lsd tree base-devel source-highlight \ 
+fzf \
 
     # - kitty
     # # - tmux

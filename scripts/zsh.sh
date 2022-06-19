@@ -15,8 +15,10 @@ then
 else 
   echo "installing oh my zsh"
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
 fi
+
+echo "installing fzf-tab"
+git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
   # check if p10k exist and install it
   # check if p10k exist and install it
   # check if fzf exist and install it
