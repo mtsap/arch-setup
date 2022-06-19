@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# TODO: fix this check 
 if command -v yay &> /dev/null
 then
   cd $HOME/progs

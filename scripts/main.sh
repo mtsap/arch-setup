@@ -8,3 +8,4 @@ sudo pacman -Suy --noconfirm --needed
 ./chezmoi.sh
 ./xorg.sh
 ./vim.sh
+./zsh.sh
