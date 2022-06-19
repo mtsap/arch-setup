@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S --noconfirm --needed zsh zsh-completions 
+sudo pacman -S --noconfirm --needed zsh zsh-completions zsh-syntax-highlighting 
 
 if [ $SHELL == "/bin/bash" ]
 then 
@@ -12,10 +12,10 @@ fi
 if [ -d "$HOME/.oh-my-zsh" ]
 then
   echo "oh my zsh already installed"
-  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 else 
   echo "installing oh my zsh"
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
 fi
   # check if p10k exist and install it
   # check if p10k exist and install it

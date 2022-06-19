@@ -2,7 +2,7 @@
 
 
 sudo pacman -S --noconfirm --needed git lsd tree base-devel\ 
-  source-highlight
+  source-highlight fzf zsh-syntax-highlighting
 
     # - kitty
     # # - tmux
