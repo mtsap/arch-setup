@@ -19,7 +19,9 @@ fi
 
 echo "installing fzf-tab"
 git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
-  # check if p10k exist and install it
+
+echo "installing p10k"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
   # check if p10k exist and install it
   # check if fzf exist and install it
 
