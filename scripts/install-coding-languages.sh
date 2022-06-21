@@ -1,4 +1,8 @@
 # install nvm for NodeJS
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+yay -S --noconfirm --needed nvm 
+source $NVM_DIR/nvm.sh
+nvm install v16.15.1
+
+
 
 
