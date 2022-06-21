@@ -8,4 +8,5 @@ sudo pacman -Suy --noconfirm --needed
 ./chezmoi.sh
 ./xorg.sh
 ./vim.sh
+./install-coding-languages.sh
 ./zsh.sh
