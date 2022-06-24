@@ -10,3 +10,4 @@ sudo pacman -Suy --noconfirm --needed
 ./vim.sh
 ./install-coding-languages.sh
 ./zsh.sh
+./tmux.sh
