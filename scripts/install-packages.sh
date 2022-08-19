@@ -2,9 +2,8 @@
 
 
 sudo pacman -S --noconfirm --needed git lsd tree base-devel source-highlight \
-fzf \
+fzf kitty \
 
-    # - kitty
     # # - tmux
     # # - vim
     # - source-highlight
@@ -16,7 +15,11 @@ sudo pacman -S --noconfirm atool p7zip unrar unzip xz zip bzip2 gzip tar
 
 #download utils
 sudo pacman -S --noconfirm --needed aria2 curl wget dunst dmenu xmonad \
-xmonad-contrib \
+xmonad-contrib dunst libnotify pipewire-pulse pavucontrol \
+light 
 
 #instaa programs
-sudo pacman -S --noconfirm --needed chromium gimp vlc
+sudo pacman -S --noconfirm --needed chromium gimp vlc spotify
+
+# TODO: dmenu
+

@@ -13,4 +13,4 @@ fi
 mkdir -p $HOME/progs
 
 yay -S --noconfirm --needed --cleanafter ttc-iosevka ttf-scientifica teams\
-    nerd-fonts-fira-code ttf-nerd-fonts-symbols
+    nerd-fonts-fira-code ttf-nerd-fonts-symbols  ponymix
