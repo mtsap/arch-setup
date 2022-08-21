@@ -1,2 +1,2 @@
 
-sudo pacman -S --noconfirm --needed xorg picom nitrogen bspwm sxhkd
+sudo pacman -S --noconfirm --needed xorg picom nitrogen bspwm sxhkd polybar
