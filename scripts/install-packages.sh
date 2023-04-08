@@ -18,6 +18,7 @@ sudo pacman -S --noconfirm --needed aria2 curl wget dunst dmenu xmonad \
 	light exa
 
 #instaa programs
-sudo pacman -S --noconfirm --needed chromium gimp vlc zsh-theme-powerlevel10k
+sudo pacman -S --noconfirm --needed chromium gimp vlc zsh-theme-powerlevel10k xclip \
+	xdotool jq bitwarden-cli
 
 # TODO: dmenu
