@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -S --noconfirm --needed git lsd tree base-devel source-highlight \
-	fzf kitty rofi thunar
+	fzf kitty rofi thunar thunar-archive-plugin
 
 # # - tmux
 # # - vim
@@ -19,6 +19,6 @@ sudo pacman -S --noconfirm --needed aria2 curl wget dunst dmenu xmonad \
 
 #instaa programs
 sudo pacman -S --noconfirm --needed chromium gimp vlc zsh-theme-powerlevel10k xclip \
-	xdotool jq bitwarden-cli
+	xdotool jq bitwarden-cli scrot gvfs file-roller
 
 # TODO: dmenu
