@@ -6,7 +6,7 @@ sudo pacman -Suy --noconfirm --needed
 ./install-packages.sh
 ./yay.sh
 ./chezmoi.sh
-./xorg.sh
+./wayland.sh
 ./vim.sh
 ./install-coding-languages.sh
 ./zsh.sh
