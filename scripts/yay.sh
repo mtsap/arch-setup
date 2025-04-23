@@ -8,5 +8,8 @@ cd yay
 makepkg -si
 
 yay -S --noconfirm --needed --cleanafter ttc-iosevka \ 
-ttf-scientifica nerd-fonts-fira-code ttf-nerd-fonts-symbols ponymix google-chrome \
+ttf-scientifica nerd-fonts-fira-code ttf-nerd-fonts-symbols  google-chrome \
 	bitwarden-rofi swaync-git maplemono-ttf
+kk
+yay -S --noconfirm --needed --cleanafter  zsh-theme-powerlevel10k 
+
