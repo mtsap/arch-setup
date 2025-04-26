@@ -1,11 +1,11 @@
 #!/bin/bash
-sudo pacman -S --noconfirm --needed zsh zsh-completions zsh-syntax-highlighting 
-
-if [ $SHELL == "/bin/bash" ]
-then 
-     echo "Changling shell to zsh"
-     chsh -s $( which zsh )
-fi
+# sudo pacman -S --noconfirm --needed zsh zsh-completions zsh-syntax-highlighting 
+#
+# if [ $SHELL == "/bin/bash" ]
+# then 
+#      echo "Changling shell to zsh"
+#      chsh -s $( which zsh )
+# fi
 
   # TODO:
   # check if oh-my-zsh exist and install it

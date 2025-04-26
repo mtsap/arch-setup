@@ -12,13 +12,11 @@ sudo pacman -S --noconfirm --needed aria2 curl wget \
 
 #instaa programs
 sudo pacman -S --noconfirm --needed chromium gimp vlc zsh-theme-powerlevel10k \
-	 jq bitwarden-cli  gvfs file-roller noto-fonts-emoji exa
+	  bitwarden-cli  gvfs file-roller noto-fonts-emoji exa
 
 #instaa programs
 sudo pacman -S --noconfirm --needed chromium gimp vlc \
-	 jq bitwarden-cli  gvfs file-roller
+	 jq yq bitwarden-cli  gvfs file-roller
 
 # TODO: dmenu
-sudo pacman -S --noconfirm --needed nerd-fonts ripgrep btop
-
-
+sudo pacman -S --noconfirm --needed nerd-fonts ripgrep btop 
