@@ -19,4 +19,4 @@ sudo pacman -S --noconfirm --needed chromium gimp vlc \
 	 jq yq bitwarden-cli  gvfs file-roller
 
 # TODO: dmenu
-sudo pacman -S --noconfirm --needed nerd-fonts ripgrep btop 
+sudo pacman -S --noconfirm --needed nerd-fonts ripgrep btop wiremix
