@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -S --noconfirm --needed git lsd tree base-devel source-highlight \
-	fzf kitty rofi-wayland thunar thunar-archive-plugin linux-headers
+	fzf wezterm rofi-wayland thunar thunar-archive-plugin linux-headers
 
 # unzip tools
 sudo pacman -S --noconfirm atool p7zip unrar unzip xz zip bzip2 gzip tar bat
